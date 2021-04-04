@@ -131,3 +131,5 @@ dmypy.json
 
 # Maturin/Rust targets
 target/
+maturin-main/
+maturin.zip
