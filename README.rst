@@ -10,7 +10,6 @@ Overview
       - | |requires|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
 
 .. |requires| image:: https://requires.io/github/kunc/fisher_exact/requirements.svg?branch=master
     :alt: Requirements Status
@@ -31,8 +30,6 @@ Overview
 .. |supported-implementations| image:: https://img.shields.io/pypi/implementation/fisher_exact.svg
     :alt: Supported implementations
     :target: https://pypi.org/project/fisher_exact
-
-
 
 .. end-badges
 
@@ -60,10 +57,10 @@ Example:
 
 
 
-Why not `fisher_exact` from `scipy.stats`?
+Why not ``fisher_exact`` from ``scipy.stats``?
 ==========================================
 
-The only reason this mini-library exists is because I needed to compute the Fisher'S exact test pretty quickly quite often and the profiler showed that I spend most time in the scipy.stats.fisher_exact.
+The only reason this mini-library exists is because I needed to compute the Fisher's exact test pretty quickly quite often and the profiler showed that I spend most time in the ``scipy.stats.fisher_exact``.
     
 
 Credits
